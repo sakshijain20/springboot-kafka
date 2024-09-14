@@ -9,8 +9,8 @@ Three primary purposes are offered by Kafka to its users:
 Building real-time streaming data pipelines and applications that can adjust to the data streams is the main use case for Kafka. It allows for the storing and analysis of both historical and real-time data by combining communications, storage, and stream processing.
 
 ## How to run the application (Windows)
-1. Start the Zookeeper with the command: .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
-2. Start the Kafka Server with the command: .\bin\windows\kafka-server-start.bat .\config\server.properties
+1. Navigate to the Kafka folder from cmd and start the Zookeeper with the command: **_.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties_**
+2. In new terminal, navigate to the Kafka folder and start the Kafka Server with the command: **.\bin\windows\kafka-server-start.bat .\config\server.properties**__
 3. Start up the Producer application
 4. Start up the Consumer application
 5. Send the request with Bruno/Postman -> You can validate the in the OffsetExplorer, if the message was sent by the Produer to Topic. You'll receive the Logger response of message consumption.
